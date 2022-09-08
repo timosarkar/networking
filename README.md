@@ -29,4 +29,4 @@ A collection of vagrant, docker and k8s scripts for maintaining a fully fledged 
 - Installing veeam and maintaining a backup logic
 - Network security achieved through LAN segmentation and micro-segmentation
 - Configuring VLAN access
-
+- Installing SCCM and provisioning virtual machines through network boot
