@@ -35,7 +35,7 @@ A collection of vagrant, docker and k8s scripts for maintaining a fully fledged 
 
 # Suggested Pre-requesities
 
-I heavily suggest the use of the new Microsoft Windows Terminal which is available here: https://apps.microsoft.com/store/detail/windows-terminal
+I heavily suggest the use of the new Microsoft Windows Terminal which is available here: https://apps.microsoft.com/store/detail/windows-terminal. The new Windows Terminal heavily differs from the casual CMD. It allows for modularization.
 
 # Installing and configuring Vagrant on Windows 10/11 Host
 
@@ -47,3 +47,16 @@ In this section I will cover how to setup vagrant and how to prepare your host-e
 
 You can simply download Vagrant from this link: https://www.vagrantup.com/downloads. In my case, I use a Windows 11 64bit Host, so I chose amd64. 
 After the download you should be able to run the .msi file and accept the license agreement. After that a UAC Elevation windows should popup which you need to confirm.
+
+## Verifying the installation of Vagrant
+
+You can easily check if your installation of Vagrant was successful, simply by using the given command below. Just type it into the Windows Terminal (CMD also allowd :)).
+
+```batch
+vagrant --version
+```
+
+So the command should basically just look up the installed vagrant version and display it to the user. The result should look like this. 
+
+![image](https://user-images.githubusercontent.com/71646577/189186074-0b4f5aeb-a315-4c30-9165-bd525ef73e56.png)
+  
