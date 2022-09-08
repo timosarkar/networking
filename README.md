@@ -50,7 +50,7 @@ After the download you should be able to run the .msi file and accept the licens
 
 ## Verifying the installation of Vagrant
 
-You can easily check if your installation of Vagrant was successful, simply by using the given command below. Just type it into the Windows Terminal (CMD also allowd :)).
+You can easily check if your installation of Vagrant was successful, simply by using the given command below. Just type it into the Windows Terminal (CMD also alloewd :) ).
 
 ```batch
 vagrant --version
@@ -59,4 +59,16 @@ vagrant --version
 So the command should basically just look up the installed vagrant version and display it to the user. The result should look like this. 
 
 ![image](https://user-images.githubusercontent.com/71646577/189186074-0b4f5aeb-a315-4c30-9165-bd525ef73e56.png)
+
+## Vagrant workspace initialisation
+
+In order to define a location where all configuration-related files and binaries are stored, we will need to create a new workspace. For that, I have created a new Directory on my C: drive and cd'ed into it. You can set up a new workspace by using the commands below:
+
+```batchfile
+cd C:\ && mkdir VagrantLab
+cd VagrantLab
+
+```
+
+
   
