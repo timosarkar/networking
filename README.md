@@ -27,3 +27,6 @@ A collection of vagrant, docker and k8s scripts for maintaining a fully fledged 
 - Cisco Router: Installation and configuration of common services including QoS, L3 features etc.
 - Fortinet Firewall: Get better at: ACL, IDS/IPS, configuring rules and evaluating network failures
 - Installing veeam and maintaining a backup logic
+- Network security achieved through LAN segmentation and micro-segmentation
+- Configuring VLAN access
+
