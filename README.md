@@ -14,6 +14,7 @@ A collection of vagrant, docker and k8s scripts for maintaining a fully fledged 
 - Backupserver Veeam (vagrant)
 - Windows Active Directory (vagrant)
 - Webserver/CMS/SFTP (docker)
+- ERP Software (SAP if possible, (vagrant))
 
 ## Intended practices
 
